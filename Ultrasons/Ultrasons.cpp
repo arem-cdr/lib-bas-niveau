@@ -18,7 +18,7 @@
  */
 
 
-#include "hcsr04.h"
+#include "Ultrasons.h"
 
 
 HCSR04::HCSR04(PinName TrigPin,PinName EchoPin):
