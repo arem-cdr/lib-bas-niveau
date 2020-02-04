@@ -1,3 +1,6 @@
+Exemple de main utilisant cette lib :
+
+
 #include "mbed.h"
 #include "Ultrasons.h"
 //#include "TextLCD.h"
