@@ -1,9 +1,14 @@
 Exemple de main utilisant cette lib :
+/* Ultrason arduino, carac:
+distance min: 4 cm
+disance max : 25 cm
+angle d'ouverture de la détection d'un goblet : 53°
+attention: la distance affichée est prise par rapport au pcb du capteur.
+*/
 
 
 #include "mbed.h"
 #include "Ultrasons.h"
-//#include "TextLCD.h"
  
 DigitalOut myled(LED1);
 HCSR04  usensor(PA_1,PA_0);
